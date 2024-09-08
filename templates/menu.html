@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/fundamental-styles@latest/dist/fundamental-styles.css' rel='stylesheet'>
+    
+    <title>Menu</title>
+
+    
+    <style>
+        /* Container for the entire menu */
+        
+#menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 10px;
+}
+
+/* Styling for each category section */
+.category {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(33.333% - 40px); /* 3 categories per row */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Category title styling */
+.category h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #333;
+    border-bottom: 2px solid #eaeaea;
+    padding-bottom: 10px;
+}
+
+/* Food item container */
+.food-item {
+    margin-bottom: 15px;
+}
+
+/* Food name and ranking */
+.food-item h3 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #2c3e50;
+}
+
+/* Ranking styling */
+.ranking {
+    color: #27ae60; /* Green for rankings */
+    font-weight: bold;
+}
+
+/* Ingredients styling */
+.food-item p {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-bottom: 10px;
+}
+
+/* Food picture styling */
+.food-item img {
+    border-radius: 8px;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+/* Hover effect for food items */
+.food-item:hover {
+    background-color: #f9f9f9;
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
+
+/* Adjust responsiveness */
+@media (max-width: 768px) {
+    .category {
+        width: calc(50% - 20px); /* 2 categories per row for tablet screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .category {
+        width: 100%; /* 1 category per row for mobile screens */
+    }
+}
+.decarbonization-symbol {
+    font-size: 50px;
+    color: #27ae60; /* Green color */
+    vertical-align: middle;
+    margin-right: 10px;
+
+}
+.gelbdecarbonization-symbol {
+    font-size: 50px;
+    color: #ffee00; /* Green color */
+    vertical-align: middle;
+    margin-right: 10px;
+    opacity: 0%;
+}
+.reddecarbonization-symbol {
+    font-size: 50px;
+    color: #ff0000; /* Green color */
+    vertical-align: middle;
+    margin-right: 10px;
+    opacity: 0%;
+}
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .category {
+            background-color: #f4f4f4;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+            .food-item {
+    display: flex;
+    justify-content: space-between; /* Align elements on opposite sides */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 15px;
+}
+        
+        .food-item img {
+            max-width: 150px;
+            display: block;
+        }
+        .ranking {
+            color: #0099ff;
+        }
+
+    .headerMenu {
+        align-items: center;
+        margin-left: 45%;
+        }
+    header {
+        background-color: #0099ff;
+        
+    }
+    body {
+        background: linear-gradient(#0099ff , transparent 5%);
+
+    }
+    </style>
+    
+
+</head>
+<body>
+
+<h1 class="headerMenu">Welcome to SAP</h1>
+<div id="menu-container"></div>
+<script type="text/javascript" src="{{ url_for('static', filename='fetching.js')}}"></script>
+
+<script >var jsony = JSON.parse('{{ user | tojson | safe}}');
+renderMenu(jsony);
+</script>
+
+
+</body>
+</html>

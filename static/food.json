@@ -1,0 +1,248 @@
+{
+  "menus": [
+      {
+          "category": "Pan Asian Menu",
+          "items": [
+              {
+                  "food_name": "Sweet and Sour Chicken",
+                  "food_picture": "https://mymorningmocha.com/wp-content/uploads/2023/08/Sweet-And-Sour-Chicken-Recipe.jpg",
+                  "ingredients": [
+                      "Chicken",
+                      "Bell Peppers",
+                      "Pineapple",
+                      "Vinegar",
+                      "Sweet and Sour Sauce"
+                  ],
+                  "ranking": 7
+              },
+              {
+                  "food_name": "Szechuan Tofu",
+                  "food_picture": "https://khinskitchen.com/wp-content/uploads/2022/05/szechuan-tofu-03.jpg",
+                  "ingredients": [
+                      "Tofu",
+                      "Chili Paste",
+                      "Garlic",
+                      "Szechuan Sauce",
+                      "Bell Peppers"
+                  ],
+                  "ranking": 4.6
+              },
+              {
+                  "food_name": "Pad Thai",
+                  "food_picture": "https://www.justspices.de/media/opti_image/webp/recipe/resized/510x510/recipe/Asia_Allrounder_Pad_Thai-1_1.webp",
+                  "ingredients": [
+                      "Rice Noodles",
+                      "Peanuts",
+                      "Bean Sprouts",
+                      "Shrimp",
+                      "Egg",
+                      "Pad Thai Sauce"
+                  ],
+                  "ranking": 4.9
+              },
+              {
+                  "food_name": "Teriyaki Chicken",
+                  "food_picture": "https://www.onceuponachef.com/images/2024/01/chicken-teriyaki-1200x1553.jpg",
+                  "ingredients": [
+                      "Chicken",
+                      "Teriyaki Sauce",
+                      "Broccoli",
+                      "Rice",
+                      "Sesame Seeds"
+                  ],
+                  "ranking": 5.2
+              },
+              {
+                  "food_name": "Spring Rolls",
+                  "food_picture": "https://static01.nyt.com/images/2023/12/21/multimedia/AS-Spring-Rolls-bzjt/AS-Spring-Rolls-bzjt-superJumbo.jpg",
+                  "ingredients": [
+                      "Rice Paper",
+                      "Cabbage",
+                      "Carrots",
+                      "Noodles",
+                      "Mushrooms"
+                  ],
+                  "ranking": 4.6
+              }
+          ]
+      },
+      {
+        "category": "Indian Combo Menu",
+        "items": [
+          {
+            "food_name": "North Indian Combo",
+            "food_picture": "https://rakskitchen.net/wp-content/uploads/2013/11/10867983783_854a7fec8f_o.jpg",
+            "ingredients": ["Chapathi", "Rice", "Dal", "Vegetable Curry", "Salad"],
+            "ranking": 6.1
+          },
+          {
+            "food_name": "South Indian Combo",
+            "food_picture": "https://traditionallymodernfood.com/wp-content/uploads/2021/08/south-indian-lunch-combo-scaled.jpeg",
+            "ingredients": ["Dosa", "Sambar", "Rasam", "Chutney", "Rice"],
+            "ranking": 4.8
+          },
+          {
+            "food_name": "Egg Combo",
+            "food_picture": "https://shandongchinesekitchen.lk/wp-content/uploads/2020/05/Shandong-Chinese-Kitchen-Egg-Set-Meal.png",
+            "ingredients": ["Egg Curry", "Rice", "Chapathi", "Dal", "Salad"],
+            "ranking": 6.1
+          },
+          {
+            "food_name": "Chicken Combo",
+            "food_picture": "https://indfused.com/wp-content/uploads/2016/06/cover2.jpg?w=1400",
+            "ingredients": ["Chicken Curry", "Rice", "Chapathi", "Dal", "Salad"],
+            "ranking": 4.7
+          },
+          {
+            "food_name": "Paneer Combo",
+            "food_picture": "https://cdn3.didevelop.com/public/cdn/533_6745cdd0440d3b94b95f9d9512cdcf88.jpg",
+            "ingredients": ["Paneer Curry", "Rice", "Chapathi", "Dal", "Salad"],
+            "ranking": 8
+          },
+          {
+            "food_name": "Biryani",
+            "food_picture": "https://asian-foodie.de/wp-content/uploads/2023/07/Chicken-Biryani-rezept.jpg",
+            "ingredients": ["Veg Biryani", "Egg Biryani", "Chicken Biryani"],
+            "ranking": 4.9
+          },
+          {
+            "food_name": "Tandoori",
+            "food_picture": "https://images.getrecipekit.com/20230720153053-tandoori-chicken-4-1024x768.jpg?aspect_ratio=1:1&quality=90&",
+            "ingredients": ["Veg Tandoori", "Non-Veg Tandoori"],
+            "ranking": 4.6
+          }
+        ]
+      },
+      {
+        "category": "Global Menu",
+        "items": [
+          {
+            "food_name": "Burger",
+            "food_picture": "https://ich-liebe-kaese.de/fileadmin/_processed_/b/3/rezept-pulled-chicken-cheese-burger_599718cf40_csm.jpg",
+            "ingredients": ["Bun", "Patty (Veg or Non-Veg)", "Lettuce", "Tomato", "Cheese"],
+            "ranking": 4.3
+          },
+          {
+            "food_name": "Pizza",
+            "food_picture": "https://www.beefbandits.de/media/3b/75/g0/1695395094/Firefly%20Neapolitanische%20Pizza%20Margherita%20auf%20einem%20rundem%20Holzbrett%2030015.jpg",
+            "ingredients": ["Dough", "Tomato Sauce", "Cheese", "Veg or Non-Veg Toppings"],
+            "ranking": 4.8
+          },
+          {
+            "food_name": "Pasta",
+            "food_picture": "https://www.madamecuisine.de/wp-content/uploads/2024/04/pasta-mit-frischer-tomatensauce-featured.jpg",
+            "ingredients": ["Pasta", "Sauce", "Vegetables", "Chicken (optional)"],
+            "ranking": 4.5
+          },
+          {
+            "food_name": "Grill",
+            "food_picture": "https://blog.gartenmoebel.de/wp-content/uploads/2014/03/grillen_fuer_anfaenger.jpg",
+            "ingredients": ["Grilled Vegetables", "Grilled Chicken or Fish"],
+            "ranking": 4.7
+          },
+          {
+            "food_name": "Sandwich Combo",
+            "food_picture": "https://www.oroweat.com/sites/default/files/recipe/Recipes_0012_MiniClubCombo_Q80.jpg",
+            "ingredients": ["Bread", "Veg or Non-Veg Fillings", "Salad", "Fries"],
+            "ranking": 7.7
+          },
+          {
+            "food_name": "Healthy Salad Combo",
+            "food_picture": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2014/09/Mandarin-Chicken-Salad-8.jpg",
+            "ingredients": ["Leafy Greens", "Vegetables", "Chicken or Tofu", "Dressing"],
+            "ranking": 4.6
+          }
+        ]
+      },
+      {
+        "category": "Adiga's Buffet",
+        "items": [
+          {
+            "food_name": "Juice",
+            "food_picture": "https://images.healthshots.com/healthshots/en/uploads/2022/02/08134710/JUICES-1600x900.jpg",
+            "ingredients": ["Various Fresh Fruits"],
+            "ranking": 5.1
+          },
+          {
+            "food_name": "Salad",
+            "food_picture": "https://cdn.loveandlemons.com/wp-content/uploads/2021/04/green-salad.jpg",
+            "ingredients": ["Cucumbers", "Tomatoes", "Onions", "Lettuce"],
+            "ranking": 4.3
+          },
+          {
+            "food_name": "Dry",
+            "food_picture": "https://theflavoursaga.com/cdn/shop/products/original_e54b7ae8-77eb-4448-9358-f1a128a3ee7c.jpg?v=1719833023",
+            "ingredients": ["Stir-fried Vegetables", "Dry Paneer", "Dry Chicken"],
+            "ranking": 4.4
+          },
+          {
+            "food_name": "Flavoured Rice",
+            "food_picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXe8gLg9BiMWXlQTT65fH59zokA06lkk-HlQ&s",
+            "ingredients": ["Rice", "Spices", "Vegetables"],
+            "ranking": 4.5
+          },
+          {
+            "food_name": "Steamed Rice",
+            "food_picture": "https://static.toiimg.com/thumb/54504752.cms?width=1200&height=900",
+            "ingredients": ["Plain Rice"],
+            "ranking": 7.9
+          },
+          {
+            "food_name": "Rasam",
+            "food_picture": "https://www.mrishtanna.com/wp-content/uploads/2020/01/instant-pot-tomato-rasam-recipe.jpg",
+            "ingredients": ["Tamarind", "Tomatoes", "Spices"],
+            "ranking": 4.5
+          },
+          {
+            "food_name": "Dal",
+            "food_picture": "https://rila.de/media/weedesign_images2webp/2000/indisches-dal.webp",
+            "ingredients": ["Lentils", "Spices", "Onions"],
+            "ranking": 4.4
+          },
+          {
+            "food_name": "Sambar",
+            "food_picture": "https://www.cubesnjuliennes.com/wp-content/uploads/2021/01/South-Indian-Sambar-Recipe.jpg",
+            "ingredients": ["Lentils", "Vegetables", "Spices"],
+            "ranking": 4.6
+          },
+          {
+            "food_name": "Curd/Curd Rice",
+            "food_picture": "https://www.indianveggiedelight.com/wp-content/uploads/2022/08/curd-rice-featured.jpg",
+            "ingredients": ["Curd", "Rice"],
+            "ranking": 4.3
+          },
+          {
+            "food_name": "Raitha/Chutney",
+            "food_picture": "https://www.seriouseats.com/thmb/TdbFQunWCMMO0d5BU67aPQZJnIw=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__05__20180517-raitha-vicky-wasik-8-95253f3956b14101bfea458ece00c477.jpg",
+            "ingredients": ["Curd", "Vegetables", "Spices"],
+            "ranking": 4.4
+          },
+          {
+            "food_name": "Chapthi/Paratha/Dosa/Poori",
+            "food_picture": "https://static.toiimg.com/thumb/61203720.cms?width=1200&height=900",
+            "ingredients": ["Chapathi", "Paratha", "Dosa", "Poori"],
+            "ranking": 4.7
+          },
+          {
+            "food_name": "Fruit",
+            "food_picture": "https://www.healthyeating.org/images/default-source/home-0.0/nutrition-topics-2.0/general-nutrition-wellness/2-2-2-3foodgroups_fruits_detailfeature.jpg?sfvrsn=64942d53_4",
+            "ingredients": ["Seasonal Fresh Fruits"],
+            "ranking": 4.2
+          },
+          {
+            "food_name": "Sweets",
+            "food_picture": "https://t4.ftcdn.net/jpg/02/54/92/05/360_F_254920579_xOIyVqIWxgUi0fSQ8FwBC95YlIVZpuCd.jpg",
+            "ingredients": ["Indian Sweets", "Sugar", "Ghee"],
+            "ranking": 4.6
+          },
+          {
+            "food_name": "Eggs (Monday Special)",
+            "food_picture": "https://www.allrecipes.com/thmb/0VXMwCY9RVNrNvWcF_9v0iZpNqA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/JF_241160_CreamyCottageCheeseScrambled_4x3_12902-619d00dc88594ea9b8ed884a108db16d.jpg",
+            "ingredients": ["Boiled Eggs", "Omelette"],
+            "ranking": 8.9
+          }
+        ]
+      }
+    ]
+  }
+  

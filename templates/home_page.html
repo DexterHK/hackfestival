@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAP</title>
+    <style>
+        /* Styling for the body */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Styling for the main heading text */
+        .main-text {
+            font-size: 60px; /* Larger text */
+            font-weight: bold;
+            margin-top: 50px;
+            color: #2c3e50;
+        }
+
+        /* Button container */
+        .button-container {
+            margin-top: 50px;
+        }
+
+        /* Base styling for buttons */
+        .button {
+            padding: 15px 30px;
+            font-size: 20px; /* Larger text for buttons */
+            color: white;
+            background-color: #3498db;
+            border: none;
+            border-radius: 50px; /* Rounded buttons */
+            cursor: pointer;
+            margin: 15px;
+            transition: background-color 0.3s, transform 0.2s; /* Add smooth hover effect */
+        }
+
+        /* Hover effect on buttons */
+        .button:hover {
+            background-color: #2980b9;
+            transform: scale(1.1); /* Button grows slightly on hover */
+        }
+
+        /* Click animation on buttons */
+        .button:active {
+            transform: scale(0.95); /* Button shrinks slightly when clicked */
+        }
+
+        /* Add a box shadow on hover for more interaction */
+        .button:hover {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow when hovering */
+        }
+    </style>
+</head>
+<body>
+    <!-- Larger main text -->
+    <div class="main-text">
+        Welcome to SAP
+    </div>
+   
+    <!-- Button container -->
+    <div class="button-container">
+        <button class="button" onclick="alert('Button 1 clicked!')">System Feedback</button>
+        <button id="myButton" class="button" onclick= >interactive Menu</button>
+
+ 
+    </div>
+    <script type="text/javascript">
+        document.getElementById("myButton").onclick = function () {
+            location.href = "menu";
+        };
+    </script>   
+</body>
+</html>
