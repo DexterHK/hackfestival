@@ -17,6 +17,10 @@ def menu():
     sortFood()
     return render_template('menu.html', user= menu_data)
 
+@app.route('/system')
+def system():
+    return render_template('system.html')
+
 @app.route('/menu')
 def fetching():
     return render_template('fetching.js', user= menu_data)

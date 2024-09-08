@@ -65,8 +65,8 @@
    
     <!-- Button container -->
     <div class="button-container">
-        <button class="button" onclick="alert('Button 1 clicked!')">System Feedback</button>
-        <button id="myButton" class="button" onclick= >interactive Menu</button>
+        <button id="myButton1" class="button" >System Feedback</button>
+        <button id="myButton" class="button"  >interactive Menu</button>
 
  
     </div>
@@ -75,5 +75,11 @@
             location.href = "menu";
         };
     </script>   
+
+<script type="text/javascript">
+    document.getElementById("myButton1").onclick = function () {
+        location.href = "system";
+    };
+</script>   
 </body>
 </html>
