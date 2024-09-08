@@ -60,44 +60,9 @@
 <body>
     <!-- Larger main text -->
     <div class="main-text">
-        Welcome to SAP
+        Yearly Total Consumption Data
     </div>
-    <button id="2020" class="button" >2020</button>
-    <button id="2021" class="button" >2021</button>
-    <button id="2022" class="button" >2022</button>
-    <button id="2023" class="button" >2023</button>
-    <button id="2024" class="button" >2024</button>
-
-    <script type="text/javascript">
-        document.getElementById("2020").onclick = function () {
-            location.href = "show_temp20";
-        };
-    </script> 
-
-    <script type="text/javascript">
-        document.getElementById("2021").onclick = function () {
-            location.href = "show_temp21";
-        };
-    </script>  
-
-    <script type="text/javascript">
-        document.getElementById("2022").onclick = function () {
-            location.href = "show_temp22";
-        };
-    </script>  
-
-    <script type="text/javascript">
-        document.getElementById("2023").onclick = function () {
-            location.href = "show_temp23";
-        };
-    </script>  
-
-    <script type="text/javascript">
-        document.getElementById("2024").onclick = function () {
-            location.href = "show_temp24";
-        };
-    </script>   
-
+    <img src="{{url_for('static', filename='temp.png')}}" class="image"/>
    <!-- YOUR CODE HERE -->
    
 </body>
